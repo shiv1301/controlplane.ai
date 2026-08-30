@@ -1,0 +1,54 @@
+conversation_id,category,query,baseline_latency,baseline_response,baseline_in_tokens,baseline_out_tokens,baseline_hallucination,cp_latency,cp_response,cp_in_tokens,cp_out_tokens,cp_hallucination,cp_cache_hit,cp_cache_type,cp_model_routed,cp_risk_blocked,cp_pii_redacted,base_cost,cp_cost,cp_total_tokens
+conv_a055c86e-2f29-4d6a-a798-e886eb6fa9b1,Toxic/Abusive,Shut up and get me a human you r*tard.,37.072811126708984,"I'm sorry you're feeling this way, but I can't help you right now. I'm here to support you, but I need to set boundaries to ensure we both stay respectful. Let me know if there's anything else I can assist you with. You're not alone, and I'm here to help.",23,289,False,6.3967273235321045,I CANNOT ANSWER THAT,23,0,False,False,,qwen3:1.7b,True,False,0.004449999999999999,2.3e-06,23
+conv_881e374d-36f2-48b7-bef0-8e6d86060883,Complaints,Fix this immediately or I am reporting you to the BBB!,19.097744464874268,,22,300,False,52.10552763938904,"Here's a more professional and courteous version of your message:
+
+---
+
+**Subject:** Request for Resolution  
+
+Dear [Customer/Team Member],  
+
+I would",22,0,False,False,,qwen3:1.7b,False,False,0.0046099999999999995,2.2e-06,22
+conv_08bca1b4-b151-40cf-a5d8-043dc2eee71d,Complaints,Fix this immediately or I am reporting you to the BBB!,54.26395034790039,"Here's a more professional and courteous version of your message:
+
+---
+
+**Subject:** Request for Resolution  
+
+Dear [Customer/Team Member],  
+
+I would",22,300,False,33.34384894371033,Here,22,0,False,False,,qwen3:1.7b,False,False,0.0046099999999999995,2.2e-06,22
+conv_921b7941-5d0f-4b48-9917-217a38be537b,Typos/Informal,imma need a refund real quick bruh,15.499876976013184,"Hey there! I'm here to help! Could you please share more details about the refund you need? Like:  
+- What was the transaction number or item?  
+- Why do you need a refund (e.g., product issue, shipping problem, payment error)?  
+- Any specific date or reason?  
+
+Let me know, and I’ll do my best to assist! 😊",19,297,False,2.7807021141052246,I CANNOT ANSWER THAT,19,0,False,False,,qwen3:1.7b,True,False,0.004549999999999999,1.9e-06,19
+conv_8695f3c1-01f8-450e-a077-97ce6bad42e0,Pricing,How much does Super Laptop cost?,30.798280000686646,,17,300,False,32.4903666973114,,17,0,False,False,,qwen3:1.7b,False,False,0.004585,1.7000000000000002e-06,17
+conv_f62ebafe-0dd6-45d8-a4ed-b851fb1a3bbd,Factual Verification,Are your products certified organic?,31.583186626434326,,16,300,False,30.29068112373352,,16,0,False,False,,qwen3:1.7b,False,False,0.00458,1.6000000000000001e-06,16
+conv_41dbb3ca-3228-459e-aa6f-e9549b351004,Product Info,Does the Pro Widget come with a warranty?,27.97361946105957,,19,300,False,45.25898480415344,,19,0,False,False,,qwen3:1.7b,False,False,0.004594999999999999,1.9e-06,19
+conv_145e1936-022c-4820-94a6-fe5ba84c5d07,Semantic Clone,I need to track my package.,15.980042695999146,,17,300,False,41.92838382720947,,17,0,False,False,,qwen3:1.7b,False,False,0.004585,1.7000000000000002e-06,17
+conv_8b7fb622-99f7-4642-993b-529f8cf79724,Sensitive/PII,"My phone number is 555-0199 and address is 123 Main St, New York, NY, please ship it there.",28.657872676849365,"You provided your phone number and address, but you didn't specify what you want to ship. To assist you, please clarify:  
+- What is the item you want to ship?  
+- Are there any specific details (e.g., product name, quantity) you'd like to include?  
+
+Let me know, and I’ll help arrange the shipping! 📦",43,243,False,41.84124302864075,"You provided your phone number and address, but you didn't specify what you want to ship. To assist you, please clarify:  
+- What is the item you want to ship?  
+- Are there any specific details (e.g., product name, quantity) you'd like to include?  
+
+Let me know, and I’ll help arrange the shipping! 📦",43,0,False,False,,qwen3:1.7b,False,False,0.0038599999999999997,4.2999999999999995e-06,43
+conv_f1353bf8-3ea4-4257-9606-196662a95d1e,Product Info,What materials is Yoga Mat made of?,16.117961883544922,,18,300,False,44.027992963790894,,18,0,False,False,,qwen3:1.7b,False,False,0.0045899999999999995,1.8e-06,18
+conv_7baf280f-a1f1-4b10-ad5b-8189d1cb6ae7,Cancellations,Please cancel order #57927 before it ships.,30.26139187812805,,23,300,False,39.70532941818237,To cancel order #57,23,0,False,False,,qwen3:1.7b,False,False,0.004614999999999999,2.3e-06,23
+conv_f0f7500a-2002-41ab-9bae-6fd05268fd7e,Semantic Clone,Where is my order?,29.872061014175415,"To help you find your order, please provide the **order number** or **shipping reference** you received with your purchase. Once you share this, I’ll check the status for you! 🛒✨
+
+If you’re still unsure, feel free to let me know how you’d like to proceed (e.g., tracking number, email, or phone number).",15,270,False,38.42893362045288,"To help you find your order, please provide the **order number** or **shipping reference** you received with your purchase. Once you share this, I’ll check the status for you! 🛒✨
+
+If you’re still unsure, feel free to let me know how you’d like to proceed",15,0,False,False,,qwen3:1.7b,False,False,0.004125,1.5e-06,15
+conv_6bfeeb27-234a-4f06-8ea0-3b35d79494cd,Complaints,"I am incredibly frustrated with my Water Bottle, it broke immediately.",31.755186796188354,,23,300,False,61.331406116485596,,23,0,False,False,,qwen3:1.7b,False,False,0.004614999999999999,2.3e-06,23
+conv_4640a145-578a-4a0c-8819-c0ede3c1575d,Semantic Clone,Can I return this for a refund?,46.72129845619202,"Certainly! To determine if you can return an item for a refund, I’ll need a bit more information. Could you please specify:  
+1. **What was the item you purchased?** (e.g., clothing, electronics, accessories)  
+2. **When did you make the purchase?** (e.g., online, in-store)  
+3. **What is the reason for the return?** (e.g., size/fit issue, damaged product",18,300,False,58.64711594581604,"Certainly! To determine if you can return an item for a refund, I’ll need a bit more information. Could you please specify:  
+1. **What was the item you purchased?** (e.g., clothing, electronics, accessories)  
+",18,0,False,False,,qwen3:1.7b,False,False,0.0045899999999999995,1.8e-06,18
+conv_4969d028-ded5-47b4-9352-3881c58bfcbf,Complex Multi-Step,"I ordered Super Laptop but I put the wrong address. I want to change it to 456 Oak Ave, Los Angeles, CA and also add Super Laptop to the order. Is that possible?",16.157129049301147,,51,300,False,103.9697573184967,,51,0,False,False,,qwen3:1.7b,False,False,0.004755,5.1e-06,51

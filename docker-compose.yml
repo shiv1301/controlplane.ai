@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: ankane/pgvector:v0.5.1
+    environment:
+      POSTGRES_USER: controlplane
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: controlplane
+    restart: unless-stopped
+    ports:
+      - "5432:5432" # Exposed to host because FastAPI runs locally in .venv
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U controlplane -d controlplane"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - "6379:6379" # Exposed to host because FastAPI runs locally in .venv
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  redis_data:
