@@ -1,5 +1,9 @@
 # ControlPlane.ai
 
+Team Name: Code Alchemist
+Members: Hrithik Patel, Mayank Shrivastava, Shivanshu Agrawal.
+
+
 ControlPlane.ai is a production-grade, real-time reverse proxy and API gateway designed to sit between customer-facing AI applications and underlying LLMs. It acts as an **inline middleware layer** that protects enterprises from the overlapping risks of deploying Generative AI: skyrocketing inference costs, toxic behavior, prompt injections, data leaks, and unpredictable latency.
 
 By proxying all LLM traffic through ControlPlane.ai, organizations can achieve up to **99.9% cost reduction**, enforce **100% prompt injection detection**, and maintain strict observability over every interaction without modifying their downstream models.
